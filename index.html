@@ -251,4 +251,3 @@ $("#pdf").onclick=()=>{try{const{jsPDF}=window.jspdf,d=new jsPDF({orientation:"l
  d.autoTable({head:[H],body:tbl(),startY:30,styles:{fontSize:8.5},headStyles:{fillColor:[11,42,111]},alternateRowStyles:{fillColor:[238,243,251]}});
  save("rekap-nilai-PAS-PAI-XII.pdf",d.output("arraybuffer"),"application/pdf")}catch(e){modal('<div class="em">⚠️</div><h3>PDF gagal dibuat</h3><p>Pustaka PDF belum termuat. Periksa koneksi internet lalu coba lagi.</p>',[["Tutup","g"]])}};
 </script></body></html>
-Menampilkan CBT PAS Ganjil 2026_2027 – XII PAI & Budi Pekerti.html.
